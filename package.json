@@ -1,0 +1,37 @@
+{
+  "name": "create-wp-local",
+  "description": "Install WordPress CMS on your local PHP dev environment",
+  "version": "1.0.2",
+  "license": "MIT",
+  "author": "Gal Nahum",
+  "bin": {
+    "create-wp-local": "./bin/create-wp-local.js"
+  },
+  "preferGlobal": true,
+  "engines": {
+    "node": ">=13"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/GalNahum/create-wp-local"
+  },
+  "bugs": {
+    "url": "https://github.com/GalNahum/create-wp-local/issues"
+  },
+  "homepage": "https://github.com/GalNahum/create-wp-local#readme",
+  "keywords": [
+    "WordPress",
+    "WP",
+    "PHP",
+    "XAMPP",
+    "Wamp",
+    "MAMP",
+    "publish",
+    "cli"
+  ],
+  "dependencies": {
+    "fs-extra": "^9.0.1",
+    "open": "^7.2.1",
+    "wpinstaller": "^1.0.2"
+  }
+}
